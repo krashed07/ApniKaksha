@@ -2,9 +2,9 @@ package Recursion;
 
 public class LinearSearch {
     public static void main(String[] args) {
-        int [] arr = {0,1,2,3,4};
+        int [] arr = {0,1,2,3,4,45,23,56,89,56,45,45,3};
         int size = arr.length;
-        int key = 3;
+        int key = 23;
         boolean ans = search(arr,size,key);
         if(ans){
             System.out.println("3 is present");
